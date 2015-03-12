@@ -32,23 +32,41 @@ body {
 }
 
 #Body .ContentColumn {
-    margin: 0;
+    margin: 20px 0;
     border-radius: 5px;
     background: #ffffff;
+    box-shadow: 0px 3px 10px 0px rgba(50, 50, 50, 0.28);
+    border: #d1d2da;
 }
 
 h2 {
-    background: #ebedf3;
+    background: #f0f1f5;
     padding: 10px 0 10px 20px;
+    border: #d1d2da;
     margin: 0;
+    box-shadow: inset 0px 0px 2px 0px #d1d2da;
+
+}
+
+h2 a {
+    color: #535c66;
+    text-transform: uppercase;
+    font-size: 14px;
 }
 
 h1 {
-    background: #7d89ac;
+    /*background: #7d89ac;*/
+    background: #4e7097;
+    border: #d1d2da;
     border-radius: 5px 5px 0 0;
     padding: 10px 0 10px 20px;
     margin: 0;
     color: #ebedf3;
+    box-shadow: inset 0px -1px 1px 0px rgba(50, 50, 50, 0.28);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 300;
+    font-size: 25px;
 }
 
 /*.ItemContent {*/
@@ -88,3 +106,33 @@ h1 {
     text-transform: lowercase;
 
 }
+
+a {
+    color: #535c66;
+}
+
+
+
+.ItemDiscussion .Meta, .DataList .Meta {
+    float: right;
+    margin: -20px 0 0 0;
+}
+
+.MItem:last-child {
+    display: none;
+}
+
+.ControlOptions, .Options {
+    display: none;
+}
+
+.DataList .Title a {
+    font-size: 20px;
+    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-weight: 200;
+}
+
+.DataList .Item, .NarrowList .Item {
+    padding: 20px 30px;
+}
+
