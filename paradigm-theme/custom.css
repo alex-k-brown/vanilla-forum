@@ -1,0 +1,90 @@
+body {
+    background: #dee1e7;
+}
+
+#Head {
+    background: #4e7097;
+    box-shadow: inset 1px -45px 30px 0px rgba(50, 50, 50, 0.28);
+}
+
+.SiteSearch .InputBox {
+    border-radius: 5px;
+}
+
+.MeBox {
+    display: none;
+}
+
+.BoxButtons {
+    display: none;
+}
+
+.BoxFilter {
+    display: none;
+}
+
+.CategoryFilter {
+    display: none;
+}
+
+.Row {
+    width: 1090px;
+}
+
+#Body .ContentColumn {
+    margin: 0;
+    border-radius: 5px;
+    background: #ffffff;
+}
+
+h2 {
+    background: #ebedf3;
+    padding: 10px 0 10px 20px;
+    margin: 0;
+}
+
+h1 {
+    background: #7d89ac;
+    border-radius: 5px 5px 0 0;
+    padding: 10px 0 10px 20px;
+    margin: 0;
+    color: #ebedf3;
+}
+
+/*.ItemContent {*/
+    /*background: white;*/
+    /*margin: 0;*/
+/*}*/
+
+#Discussion_2 {
+    background: #ffffff;
+}
+
+#Discussion_4 {
+    background: #ffffff;
+}
+
+#Discussion_5 {
+    background: #ffffff;
+}
+
+#Discussion_12 {
+    background: #ffffff;
+}
+
+#Discussion_13 {
+    background: #ffffff;
+}
+
+.PoweredByVanilla {
+    display: none;
+}
+
+#Head a {
+    font-size: 180%;
+    font-family: serif;
+    font-style: italic;
+    font-weight: lighter;
+    text-transform: lowercase;
+
+}
