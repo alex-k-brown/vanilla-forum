@@ -1,14 +1,27 @@
 body {
     background: #dee1e7;
+    border-top: 40px solid black;
 }
+
 
 #Head {
-    background: #4e7097;
-    box-shadow: inset 1px -45px 30px 0px rgba(50, 50, 50, 0.28);
+    background: #3c597f;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2), inset 0 1px #5d8cb7;
+    background-image: linear-gradient(#50739b, #283f63);
+    height: 45px;
 }
 
-.SiteSearch .InputBox {
+
+
+#Head .SiteSearch .InputBox {
     border-radius: 5px;
+    font-size: 15px;
+    background: #fefefe;
+    box-shadow: inset 0px -1px 1px 0px #26303a;
+    color: #b8b8ba;
+    width: 290px;
+    padding: 10px;
+    margin: -4px 0 0 0;
 }
 
 .MeBox {
@@ -35,16 +48,19 @@ body {
     margin: 20px 0;
     border-radius: 5px;
     background: #ffffff;
-    box-shadow: 0px 3px 10px 0px rgba(50, 50, 50, 0.28);
+    box-shadow: 0 2px 6px rgba(117, 124, 142, 0.6);
     border: #d1d2da;
+    background-image: linear-gradient(to top, #e6e8f1, rgba(230, 232, 241, 0) 25px);
 }
 
 h2 {
-    background: #f0f1f5;
-    padding: 10px 0 10px 20px;
+    background: #ecedf3;
+    padding: 12px 20px;
     border: #d1d2da;
     margin: 0;
-    box-shadow: inset 0px 0px 2px 0px #d1d2da;
+    /*box-shadow: inset 0px 0px 2px 0px #d1d2da;*/
+    background-image: linear-gradient(#f1f2f6, #e7e9f0);
+    box-shadow: inset 0 -1px 2px rgba(0, 0, 0, 0.05);
 
 }
 
@@ -52,21 +68,26 @@ h2 a {
     color: #535c66;
     text-transform: uppercase;
     font-size: 14px;
+    text-shadow: 0 1px 1px white;
+    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 
 h1 {
     /*background: #7d89ac;*/
-    background: #4e7097;
+    background: #3c597f;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2), inset 0 1px #5d8cb7;
+    background-image: linear-gradient(#50739b, #283f63);
     border: #d1d2da;
     border-radius: 5px 5px 0 0;
     padding: 10px 0 10px 20px;
     margin: 0;
-    color: #ebedf3;
-    box-shadow: inset 0px -1px 1px 0px rgba(50, 50, 50, 0.28);
-    text-transform: uppercase;
+    color:  #ebedf3;
+    /*box-shadow: inset 0px -1px 1px 0px rgba(50, 50, 50, 0.28);*/
     text-align: center;
     font-weight: 300;
     font-size: 25px;
+    text-shadow: 0 1px 1px white;
+    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 
 /*.ItemContent {*/
@@ -94,12 +115,20 @@ h1 {
     background: #ffffff;
 }
 
+#Discussion_15 {
+    background: #ffffff;
+}
+
+#Body .Row .Column .ContentColumn ul {
+    background: white;
+}
+
 .PoweredByVanilla {
     display: none;
 }
 
 #Head a {
-    font-size: 180%;
+    font-size: 190%;
     font-family: serif;
     font-style: italic;
     font-weight: lighter;
@@ -127,7 +156,7 @@ a {
 }
 
 .DataList .Title a {
-    font-size: 20px;
+    font-size: 21px;
     font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     font-weight: 200;
 }
@@ -136,3 +165,41 @@ a {
     padding: 20px 30px;
 }
 
+#Body .Row .BreadcrumbsWrapper .Breadcrumbs {
+    background: #969ead;
+    border: 1px solid #767d8d;
+    border-radius: 5px;
+    box-shadow: inset 1px -15px 27px 0px #767d8d;
+
+
+
+}
+
+#Body .Row .BreadcrumbsWrapper .Breadcrumbs a {
+    color: white;
+
+
+}
+
+#Body .Row .BreadcrumbsWrapper .Breadcrumbs {
+    padding: 10px;
+
+}
+
+#Body .Row .BreadcrumbsWrapper {
+    margin: 20px 0 0 0;
+}
+
+#Head .Row .SiteMenu a {
+    vertical-align: 80%;
+    padding: 0 0 0 30px;
+
+}
+
+#Head .Row .SiteTitle a img{
+    margin: -10px 0 0 0;
+}
+
+#Body .Row .Column .ContentColumn .Categories .DataList .Discussions .MItem {
+    color: orange;
+}
