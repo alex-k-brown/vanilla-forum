@@ -24,12 +24,27 @@ body {
     margin: -4px 0 0 0;
 }
 
+#Panel {
+
+    margin: -40px 0 0 0;
+    float: right;
+}
+
 .MeBox {
+    margin: 10px 0 0 -180px;
+}
+
+.DataList .Item {
+    width: 100%;
+}
+
+
+#Panel .GuestBox h4, p {
     display: none;
 }
 
-.BoxButtons {
-    display: none;
+.MeBox .SpBookmarks {
+    background-position: -80px -86px;
 }
 
 .BoxFilter {
@@ -53,6 +68,7 @@ body {
     box-shadow: 0 2px 6px rgba(117, 124, 142, 0.6);
 }
 
+
 #Body .Categories {
 
 }
@@ -75,6 +91,78 @@ h2 a {
     text-shadow: 0 1px 1px white;
     font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
+
+#vanilla_categories_index .BoxButtons {
+    display: none;
+}
+
+#vanilla_categories_index .MeBox {
+    margin: 10px 0 0 0;
+}
+
+#Content .CategoryTable td {
+
+    padding: 12px 20px;
+    color: #535c66;
+    font-size: 14px;
+
+}
+
+#Content .CategoryTable tr {
+
+    background: transparent;
+    border: none;
+
+}
+
+#Content .CategoryTable tbody td {
+
+    background: white;
+
+
+}
+
+#Content .CategoryTable thead .CategoryName {
+    visibility: hidden;
+}
+
+.Wrap {
+    margin: 0 0 0 20px;
+}
+
+h3 {
+    font-size: 21px;
+    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-weight: 200;
+}
+
+.CategoryGroup .CategoryTable {
+
+    margin: -47px 0 0 0;
+}
+
+.BoxButtons {
+    margin: -40px 0 0 0;
+}
+
+.Button-EditProfile {
+
+    margin: 15px 15px 0 0;
+
+}
+
+.About {
+    margin: 0 30px 0 10px;
+}
+
+#Status {
+    margin: 10px 0 0 10px;
+}
+
+.Empty {
+    margin: 0 0 0 20px;
+}
+
 
 h1 {
     /*background: #7d89ac;*/
@@ -163,10 +251,18 @@ a {
     font-size: 21px;
     font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     font-weight: 200;
+
+}
+
+.DataList .Title {
+    font-size: 21px;
+    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-weight: 200;
+    margin: 0 0 0 20px;
 }
 
 .DataList .Item {
-    padding: 20px 30px;
+    padding: 12px 0 12px 0;
 }
 
 #Body .Row .BreadcrumbsWrapper .Breadcrumbs {
@@ -263,6 +359,36 @@ a {
 
 .Profile .DataList .ItemContent .Title {
     margin: -40px 0 0 0;
+}
+
+#Content tbody td {
+    background: white;
+    padding: 12px 20px;
+    font-size: 21px;
+    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-weight: 200;
+}
+
+.DataTable .Title {
+
+    font-size: 21px;
+    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-weight: 200;
+
+}
+
+.Author .PhotoWrap {
+    margin: 0 10px 4px 20px;
+}
+
+.Item.Read .Title {
+
+    font-weight: 200;
+
+}
+
+.Activities .ItemContent {
+    margin: 0 53px 0 53px;
 }
 
 /*.User {*/
