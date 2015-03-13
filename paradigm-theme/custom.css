@@ -48,9 +48,13 @@ body {
     margin: 20px 0;
     border-radius: 5px;
     background: #ffffff;
-    box-shadow: 0 2px 6px rgba(117, 124, 142, 0.6);
     border: #d1d2da;
     background-image: linear-gradient(to top, #e6e8f1, rgba(230, 232, 241, 0) 25px);
+    box-shadow: 0 2px 6px rgba(117, 124, 142, 0.6);
+}
+
+#Body .Categories {
+
 }
 
 h2 {
@@ -86,7 +90,7 @@ h1 {
     text-align: center;
     font-weight: 300;
     font-size: 25px;
-    text-shadow: 0 1px 1px white;
+    text-shadow: 0 1px 1px grey;
     font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 
@@ -161,15 +165,16 @@ a {
     font-weight: 200;
 }
 
-.DataList .Item, .NarrowList .Item {
+.DataList .Item {
     padding: 20px 30px;
 }
 
 #Body .Row .BreadcrumbsWrapper .Breadcrumbs {
-    background: #969ead;
     border: 1px solid #767d8d;
     border-radius: 5px;
     box-shadow: inset 1px -15px 27px 0px #767d8d;
+    background-image: linear-gradient(#98a0af, #70788c);
+    background-color: #848c9d;
 
 
 
@@ -182,7 +187,7 @@ a {
 }
 
 #Body .Row .BreadcrumbsWrapper .Breadcrumbs {
-    padding: 10px;
+    padding: 5px 10px;
 
 }
 
@@ -200,6 +205,144 @@ a {
     margin: -10px 0 0 0;
 }
 
-#Body .Row .Column .ContentColumn .Categories .DataList .Discussions .MItem {
+.MItem {
+    color: #8b96a1;
+    font-size: 15px;
+    margin: 0 auto;
+    padding: 0 0 0 30px;
+    width: 300px;
+}
+
+.MItem a {
+    color: #1e79a7;
+}
+
+#Form_Comment {
+
+    width: 800px;
+    margin: 0 auto;
+}
+
+.CommentForm .FormWrapper {
+    padding: 10px;
+}
+
+.Profile .Photo img {
+    height: 200px;
+    background: white;
+}
+
+.Profile .DataList .Photo {
+
+    margin: 0;
+    height: 40px;
+}
+
+.Profile .DataList img {
+    height: 40px;
+    margin: 0;
+}
+
+.Profile h1 {
+    margin: 240px 0 0 0;
+}
+
+.Profile .Photo {
+    height: 200px;
+    background: white;
+    margin: 30px 0 0 0;
+}
+
+.Profile .User dt {
     color: orange;
 }
+
+.MessageForm .Author img {
+    margin: 10px 0 0 20px;
+}
+
+.Profile .DataList .ItemContent .Title {
+    margin: -40px 0 0 0;
+}
+
+/*.User {*/
+    /*width: 850px;*/
+    /*float: right;*/
+    /*background: white;*/
+    /*padding: 0;*/
+    /*margin: -150px 0 0 0;*/
+    /*border: 0;*/
+    /*border-radius: 5px 5px 0 0 ;*/
+/*}*/
+
+/*.FormWrapper-Condensed {*/
+    /*width: 850px;*/
+    /*float: right;*/
+    /*background: white;*/
+    /*padding: 0;*/
+    /*border-radius: 0 0 5px 5px;*/
+/*}*/
+
+/*#Content .BoxFilter {*/
+    /*width: 850px;*/
+    /*background: white;*/
+    /*padding: 0;*/
+/*}*/
+
+/*.Profile h2 {*/
+    /*width: 850px;*/
+    /*background: white;*/
+    /*float: right;*/
+    /*padding: 0;*/
+/*}*/
+
+/*.User h1{*/
+    /*background-color: #e68b50;*/
+    /*background-image: linear-gradient(#eb945c, #e28345);*/
+    /*text-shadow: 0 1px rgba(0, 0, 0, 0.25);*/
+    /*height: 100px;*/
+    /*border-top: 0;*/
+    /*float: right;*/
+    /*width: 850px;*/
+    /*padding: 0;*/
+    /*margin: 0;*/
+/*}*/
+
+
+/*#Activity_8 {*/
+    /*background: #dee1e7;*/
+    /*width: 200px;*/
+    /*padding: 0;*/
+    /*margin: 150px 0 0 0;*/
+/*}*/
+
+/*#Activity_2 {*/
+    /*background: #dee1e7;*/
+    /*width: 200px;*/
+    /*padding: 0;*/
+    /*margin: 0 0 0 -50px;*/
+
+
+/*}*/
+
+/*.Profile {*/
+    /*background: #dee1e7;*/
+
+/*}*/
+
+/*.DataList {*/
+    /*box-shadow: none;*/
+    /*border: none;*/
+/*}*/
+
+/*.PhotoWrap {*/
+    /*margin: 10px 0 0 0;*/
+/*}*/
+
+/*.ProfileOptions {*/
+    /*margin: -100px 0 0 0;*/
+/*}*/
+
+/*.Photo {*/
+    /*height: 200px;*/
+/*}*/
