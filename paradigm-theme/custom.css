@@ -92,13 +92,9 @@ h2 a {
     font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 
-#vanilla_categories_index .BoxButtons {
-    display: none;
-}
 
-#vanilla_categories_index .MeBox {
-    margin: 10px 0 0 0;
-}
+
+
 
 #Content .CategoryTable td {
 
@@ -244,7 +240,15 @@ a {
 }
 
 .ControlOptions, .Options {
-    display: none;
+    margin: 0 10px 0 0;
+}
+
+.PageTitle .Options a {
+    margin: 3px 0 0 0;
+}
+
+.PageTitle .Options .OptionsTitle {
+    margin: 3px 0 0 0;
 }
 
 .DataList .Title a {
