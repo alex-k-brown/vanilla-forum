@@ -92,13 +92,9 @@ h2 a {
     font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 
-#vanilla_categories_index .BoxButtons {
-    display: none;
-}
 
-#vanilla_categories_index .MeBox {
-    margin: 10px 0 0 0;
-}
+
+
 
 #Content .CategoryTable td {
 
@@ -244,7 +240,15 @@ a {
 }
 
 .ControlOptions, .Options {
-    display: none;
+    margin: 0 10px 0 0;
+}
+
+.PageTitle .Options a {
+    margin: 3px 0 0 0;
+}
+
+.PageTitle .Options .OptionsTitle {
+    margin: 3px 0 0 0;
 }
 
 .DataList .Title a {
@@ -390,85 +394,3 @@ a {
 .Activities .ItemContent {
     margin: 0 53px 0 53px;
 }
-
-/*.User {*/
-    /*width: 850px;*/
-    /*float: right;*/
-    /*background: white;*/
-    /*padding: 0;*/
-    /*margin: -150px 0 0 0;*/
-    /*border: 0;*/
-    /*border-radius: 5px 5px 0 0 ;*/
-/*}*/
-
-/*.FormWrapper-Condensed {*/
-    /*width: 850px;*/
-    /*float: right;*/
-    /*background: white;*/
-    /*padding: 0;*/
-    /*border-radius: 0 0 5px 5px;*/
-/*}*/
-
-/*#Content .BoxFilter {*/
-    /*width: 850px;*/
-    /*background: white;*/
-    /*padding: 0;*/
-/*}*/
-
-/*.Profile h2 {*/
-    /*width: 850px;*/
-    /*background: white;*/
-    /*float: right;*/
-    /*padding: 0;*/
-/*}*/
-
-/*.User h1{*/
-    /*background-color: #e68b50;*/
-    /*background-image: linear-gradient(#eb945c, #e28345);*/
-    /*text-shadow: 0 1px rgba(0, 0, 0, 0.25);*/
-    /*height: 100px;*/
-    /*border-top: 0;*/
-    /*float: right;*/
-    /*width: 850px;*/
-    /*padding: 0;*/
-    /*margin: 0;*/
-/*}*/
-
-
-/*#Activity_8 {*/
-    /*background: #dee1e7;*/
-    /*width: 200px;*/
-    /*padding: 0;*/
-    /*margin: 150px 0 0 0;*/
-/*}*/
-
-/*#Activity_2 {*/
-    /*background: #dee1e7;*/
-    /*width: 200px;*/
-    /*padding: 0;*/
-    /*margin: 0 0 0 -50px;*/
-
-
-/*}*/
-
-/*.Profile {*/
-    /*background: #dee1e7;*/
-
-/*}*/
-
-/*.DataList {*/
-    /*box-shadow: none;*/
-    /*border: none;*/
-/*}*/
-
-/*.PhotoWrap {*/
-    /*margin: 10px 0 0 0;*/
-/*}*/
-
-/*.ProfileOptions {*/
-    /*margin: -100px 0 0 0;*/
-/*}*/
-
-/*.Photo {*/
-    /*height: 200px;*/
-/*}*/
