@@ -39,9 +39,9 @@ body {
 }
 
 
-#Panel .GuestBox h4, p {
-    display: none;
-}
+/*#Panel .GuestBox h4, p {*/
+    /*display: none;*/
+/*}*/
 
 .MeBox .SpBookmarks {
     background-position: -80px -86px;
@@ -396,6 +396,19 @@ a {
     margin: 0 53px 0 53px;
 }
 
-#Panel .Box {
+#Panel .Tags {
     display: none;
+}
+
+#Panel .GuestBox {
+    margin: 150px 0 0 -300%;
+    width: 100%;
+    background: white;
+    text-align: center;
+    padding: 15%;
+
+}
+
+#Panel .GuestBox p {
+    text-align: left;
 }
