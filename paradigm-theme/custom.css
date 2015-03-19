@@ -56,7 +56,8 @@ body {
 }
 
 .Row {
-    width: 1090px;
+    width: 70%;
+    min-width: 980px;
 }
 
 #Body .ContentColumn {
@@ -393,4 +394,8 @@ a {
 
 .Activities .ItemContent {
     margin: 0 53px 0 53px;
+}
+
+.Box {
+    display: none;
 }
