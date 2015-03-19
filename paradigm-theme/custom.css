@@ -401,14 +401,14 @@ a {
 }
 
 #Panel .GuestBox {
-    margin: 150px 0 0 -300%;
-    width: 100%;
-    background: white;
-    text-align: center;
-    padding: 15%;
-
+    float: right;
+    text-align: left;
 }
 
 #Panel .GuestBox p {
-    text-align: left;
+    display: none;
+}
+
+#Panel .GuestBox h4 {
+    display: none;
 }
