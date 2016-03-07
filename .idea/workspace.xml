@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2e40eb98-8677-48be-8326-3301d8b137f1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/paradigm-theme/custom.css" afterPath="$PROJECT_DIR$/paradigm-theme/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="2e40eb98-8677-48be-8326-3301d8b137f1" name="Default" comment="" />
     <ignored path="vanilla-forum.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -41,8 +38,8 @@
       <file leaf-file-name="custom.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/paradigm-theme/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.82701814" vertical-offset="5603" max-vertical-offset="6285">
-              <caret line="407" column="20" selection-start-line="407" selection-start-column="20" selection-end-line="407" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.40691927" vertical-offset="5603" max-vertical-offset="6285">
+              <caret line="390" column="21" selection-start-line="390" selection-start-column="21" selection-end-line="390" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -342,8 +339,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/paradigm-theme/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.82701814" vertical-offset="5603" max-vertical-offset="6285">
-          <caret line="407" column="20" selection-start-line="407" selection-start-column="20" selection-end-line="407" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.40691927" vertical-offset="5603" max-vertical-offset="6285">
+          <caret line="390" column="21" selection-start-line="390" selection-start-column="21" selection-end-line="390" selection-end-column="21" />
           <folding />
         </state>
       </provider>
